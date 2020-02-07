@@ -1,0 +1,21 @@
+void print_u(int a){
+	/* do something */
+}
+int main(){
+	int a = 0, float b = 50;
+	const int d = 10;
+	float e;
+	int c[50];
+	while(a<b){
+		if(a<d)
+		e = d/(a+1);
+		if(a==d)
+		e = d*a+1;
+		else
+		e = d*a-1;
+		c[a]=e;
+	}
+	print_u(a<=b);
+	print_u(a>=b);
+	print_u(a!=b);
+}	

@@ -1,0 +1,24 @@
+int g;
+int h;
+int f;
+int l(){
+// do \
+something
+}
+float m;
+float n,    float p;
+int main(){
+/* this is for comment test */
+// */ // comment, not syntax error
+f = g/**//h; // equivalent to f = g / h;
+//\
+i(); // part of a two-line comment
+/\
+/ j(); // part of a two-line comment
+/*//*/ l(); // equivalent to l();
+m = n//**/o
++ p; // equivalent to m = n + p;
+/\
+/\
+\
+xxxxx	//this is a 4 line comment

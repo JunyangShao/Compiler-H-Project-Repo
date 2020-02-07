@@ -1,0 +1,22 @@
+void hello(){
+	const int y= 10, yy=5;
+	int x=0,z = 5,zz[10];
+	while (x < y)
+	{
+	x=x+1;
+	z=z+2;
+	zz[x]=z;
+	}
+	if( z > x)
+	{
+	z=z-x;
+	x=x+z;
+	}
+	else
+	z=z+x;
+	return ();
+}
+void main(){
+	hello();
+	return ();
+}

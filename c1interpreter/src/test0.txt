@@ -1,0 +1,10 @@
+float a[4+6/4]={-0.11+3e-5+2,2};
+int b=1;
+void main(){
+a[b]=a[b+1]*(a[1]+0.1);
+b=1;
+output_fvar=a[0];
+output_ivar=a[b];
+outputFloat();
+outputInt();
+}

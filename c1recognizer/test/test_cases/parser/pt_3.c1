@@ -1,0 +1,12 @@
+void main(){
+	int x=1,y=10;
+	int z=5;
+	while(x<y)
+	{
+	if(x==5){
+	z=z*2;
+	y=y*2;
+	}
+	x=x+1;
+	}
+}
